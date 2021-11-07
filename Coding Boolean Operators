@@ -1,0 +1,31 @@
+package selfProgramming;
+
+public class BooleanOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//Loan application for age between 25 to 50.
+		int age=30;
+		
+		if ((age >= 25) && (age <= 50))
+		{
+			System.out.println("You are qualified to apply");	
+		}
+		else 
+		{
+			System.out.println("You are NOT qualified to apply");
+		}
+	//
+int age1=16;
+		
+		if ((age1 >= 25) && (age1 <= 50))
+		{
+			System.out.println("You are qualified to apply");	
+		}
+		else 
+		{
+			System.out.println("You are NOT qualified to apply");
+		}
+	}
+
+}
